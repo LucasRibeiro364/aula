@@ -13,10 +13,16 @@ header {
 }
 #caixa {
     width: 50%;
-    height: 100px;
-    border: 3px solid black;
-    overflow: auto;
 
-    margin: 0 auto;
+    height: 100px;
+    /* ATENÇÃO: ao estabelendo uma altura, o texto pode se comportar fora das limitações  */
+
+    background-color: yellow;
+
+    /* border: 3px solid black; */
+    
+    /* overflow: auto; */
+
+    margin: 20px auto;
     padding: 10px;
 }
